@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <script src="main.js"></script>
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <div class="main-container">
+        <div class="add-dark-bg"></div>
+
+        <div class="navbar w100 ">
+            <div class="icon ">
+                <img src="images/progi-logo.svg" alt="" class="icon-img">
+            </div>
+            
+            <ul class="navbar-right  ">
+                <li>
+                    <a href="" class="menu">Home</a>
+                </li>
+                <li>
+                    <a href="" class="menu">About</a>
+                </li>
+                <li>
+                    <a href="" class="menu">Service</a>
+                </li>
+                <li>
+                    <a href="" class="menu">Our Team</a>
+                </li>
+                <li>
+                    <a href="" class="menu">Contacts</a>
+                </li>
+            </ul>
+           
+        </div>
+        <div class="sidenav ">
+            <div class="icon-one ">
+                <div class="hamburger hamburger-one"></div>
+            </div>
+            <div class="mobile-nav">
+              
+            </div>
+        </div>
+
+        <div class="section-one   d-flex">
+            <div class="d-flex flex-column justify-content-center p-rel  w50  ">
+                <div class="d-flex flex-column font-tahoma p-rel boder">
+                    <label class="lb55 text-bold ">The norm of glucose </label>
+                    <label class="lb55 text-bold pt-10">levels with Deglusterol</label>
+                </div>
+                <div class="d-flex flex-column  mt-50 lh-1-5 font-tahoma ">
+                    <label class="lb16 text-indent-50 ">
+                        Deglusterol is the main ingredient in ProGsterol, a substance recently introduced as the world’s first synthetic peptide registered in the USA as New Dietary Ingredient (NDI).
+                    </label>
+                    <label class="lb16 pt-10">
+                        ProGsterol helps to maintain healthy blood sugar, the main concern of pre-diabetic and Type II diabetic patients.
+                    </label>
+                    <label class="lb16 pt-10">
+                        ProGsterol can be taken anytime because it does not cause hypoglycemia.
+                    </label>
+                    <label class="lb16 pt-10">
+                        ProGsterol is easy to take - can be mixed with any drink
+                    </label>
+
+                    <div class="d-flex mt-50">
+                        <button class="button-one mr-20">Shop Now</button>
+                        <button class="button-two">Add to cart</button>
+                    </div>
+                  
+                  
+                    
+                </div>
+              
+            </div>
+            <div class="d-flex w50 section-right p-rel  justify-content-end align-center ">
+                <img src="images/model-red.png" class="img-sec1 " alt="" style="height: 85%;">
+            </div>
+        </div>
+
+        <div class="section-two  mt-100  d-flex">
+            <div class="d-flex w50  align-center justify-content-center  p-rel">
+                <img src="images/product-bg.png" class="img-sec2  p-rel" alt="" style="height: 70%;">
+                <img src="images/icon/Asset 5.svg" class="circle-dot" alt="">
+            </div>
+            <div class="d-flex flex-column w50  ">
+                <div class="section-one-title d-flex flex-column font-tahoma">
+                    <label class="lb20 text-300 theme-red">KNOW ABOUT US</label>
+                    <label class="lb50 text-bold mt-10">What is ProGsterol?</label>
+                </div>
+
+                <div class="d-flex flex-column  mt-50 lh-1-5 font-tahoma">
+                    <label class="lb14 text-indent-50 ">
+                        ProGsterol is a peptide molecule that is manufactured by Caregen, a biotechnology company in
+                        South Korea. It contains the primary ingredient Deglusterol, the first synthetic peptide approved
+                        as a New Dietary Ingredient (NDI) in the US.
+                    </label>
+                    <label class="lb14 mt-20 ">
+                        This product enhances insulin sensitivity and encourages glucose absorption to support the
+                        maintenance of regular blood glucose levels.
+                    </label>
+                    <label class="lb14 mt-20 ">
+                        ProGsterol is a dietary supplement that is registered as biologically active additives (BAA). It is not
+                        a medication and works in conjunction with the standard treatment for prediabetes and type II
+                        diabetes mellitus.
+                    </label>
+
+                    
+                    <button class="button-three mt-30 open-modal" id="open-modal">
+                            <i class="fa-solid fa-play watch-icon pr-10"></i>
+                           Watch Video
+                    </button>
+                 
+                </div>
+
+                <div class="modal-video" id="modal-video">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="video-container" id="video-container"></div>
+                    </div>
+                </div>
+
+            
+
+              
+            </div>
+          
+        </div>
+
+        <div class="section-three d-flex align-center pt-50 p-rel">
+            <img src="images/proGsterol-logo.svg" alt="" class="progi-logo-white">
+            <div class="d-flex font-tahoma p-rel align-center w100 pt-50 pl-20">
+                <div class="d-flex w15 justify-content-center">
+                    <div class="section-three-numbers pr-20"></div>
+                    <div class="d-flex flex-column ">
+                        <div class="d-flex p-rel justify-content-center">
+                            <label for="" class="lb80 text-white ">3</label>  
+                        </div>
+                        <div class="d-flex flex-column align-start">
+                            <label for="" class="lb25 text-bold text-white">GRAMS</label>
+                            <label for="" class="lb20 text-white text-200">Per Sachet</label>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="d-flex w15 justify-content-center">
+                    <div class="section-three-numbers pr-20"></div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex p-rel">
+                            <label for="" class="lb80 text-white">30</label>  
+                        </div>
+                        <div class="d-flex flex-column align-start">
+                            <label for="" class="lb25 text-bold text-white">SACHET</label>
+                            <label for="" class="lb20 text-white text-200">Per Box</label>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+
+            <img src="images/product-stick-front.png" alt="" class="img-stick-front">
+            <img src="images/product-stick-back.png" alt="" class="img-stick-back">
+        </div>
+
+
+        <div class="section-four font-tahoma pt-50">
+            <div class="d-flex flex-column align-center">
+                <label for="" class="lb20 theme-red">OUR CHARACTERISTIC</label>
+                <!-- <label for="" class="lb30 text-bold">Main Characteristic</label> -->
+                <label for="" class="lb30 text-bold">Main Characteristic</label>
+            </div>
+
+            <div class="d-flex justify-content-center mt-100">
+                <div class="d-flex flex-column w30 align-center">
+                    <img src="images/icon/NDI.svg" class="char-icon" alt="">
+                    <label for="" class="lb20 pl-10 pr-10 icon-title-ndi">
+                        Registered as NDI in the USA 
+                    </label>
+                    <label for="" class="lb12 pl-10 pr-10 pt-10 text-center">
+                        First synthetic peptide registered in the US as NDI (New Dietary Ingredient)
+                    </label>
+                </div>
+                <div class="d-flex flex-column w30 align-center">
+                    <img src="images/icon/bar-stats.png" class="char-icon1" alt="">
+                    <label for="" class="lb20 pl-10 pr-10 pt-20 icon-title text-center">
+                        Helps to maintain normal blood glucose levels
+                    </label>
+                    <label for="" class="lb12 pt-30 pl-10 pr-10 text-center">
+                        With ProGsterol, you can stabilize your blood glucose levels by supporting insulin receptor function
+                    </label>
+
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-100">
+
+               
+    
+                <div class="d-flex flex-column w30 align-center">
+                    <img src="images/icon/finger.png" class="char-icon1" alt="">
+                    <label for="" class="lb20 pl-10 pr-10 pt-20 icon-title">
+                        Helps to reduce sugar levels
+                    </label>
+                    <label for="" class="lb12 pt-30 pl-10 pr-10 text-center">
+                        ProGsterol is made to reduce sugar levels and excess weight
+                    </label>
+                </div>
+                <div class="d-flex flex-column w30 align-center">
+                    <img src="images/icon/time.png" class="char-icon1" alt="">
+                    <label for="" class="lb20 pl-10 pr-10 pt-20 icon-title">
+                        Instant Result
+                    </label>
+                    <label for="" class="lb12 pt-30 pl-10 pr-10 text-center">
+                        ProGsterol provides an immediate effect within 30 minutes of ingestion
+                    </label>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="section-five font-tahoma mt-50">
+            <div class="d-flex flex-column justify-content-center  h100 p-rel">
+                <img src="images/proGsterol-logo.svg" alt="" class="progi-logo-white-two">
+                <label for="" class="lb30 text-white w45 text-bold">
+                    ProGsterol is made to reduce sugar levels 
+                    and excess weight by improving cell sensitivity to insulin, normalizing 
+                    carbohydrate metabolism and reducing inflammation.
+                </label>
+            </div>
+        </div>
+
+        <div class="section-six font-tahoma">
+            <div class="d-flex flex-column align-center">
+                <label for="" class="lb20 theme-red">TESTIMONIALS</label>
+                <!-- <label for="" class="lb30 text-bold">Main Characteristic</label> -->
+                <label for="" class="lb30 text-bold">What Client Say</label>
+            </div>
+
+            <div class="swiper mySwiper mt-80">
+                <div class="swiper-wrapper mt-50">
+                  <div class="swiper-slide ">
+                    <div class="box1 d-flex flex-column justify-content-between p-rel">
+                            <i class="fa-solid fa-quote-left quoate"></i>
+                            <div class="d-flex justify-content-end">
+                                <div class="d-flex  w40 justify-content-even mt-20">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+
+                            <label for="" class="lb12 text-left mt-20 lh-2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ea expedita beatae libero explicabo temporibus quisquam cupiditate eos incidunt fugit nihil minus, assumenda molestias? Sed a et nesciunt corporis id.
+                            </label>
+                            <div class="d-flex align-center">
+                                <img src="images/testimonial.jpg" alt="" class="testimonial-picture mr-10">
+                                <div class="d-flex flex-column text-left">
+                                    <label for="" class="lb15 text-bold">DIANA KIMWEALTH</label>
+                                    <label for="" class="lb13 text-gray text-300">Founder Company</label>
+                                </div>
+                            </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide ">
+                    <div class="box1 d-flex flex-column justify-content-between p-rel">
+                            <i class="fa-solid fa-quote-left quoate"></i>
+                            <div class="d-flex justify-content-end">
+                                <div class="d-flex  w40 justify-content-even mt-20">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+
+                            <label for="" class="lb12 text-left mt-20 lh-2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ea expedita beatae libero explicabo temporibus quisquam cupiditate eos incidunt fugit nihil minus, assumenda molestias? Sed a et nesciunt corporis id.
+                            </label>
+                            <div class="d-flex align-center">
+                                <img src="images/testimonial.jpg" alt="" class="testimonial-picture mr-10">
+                                <div class="d-flex flex-column text-left">
+                                    <label for="" class="lb15 text-bold">DIANA KIMWEALTH</label>
+                                    <label for="" class="lb13 text-gray text-300">Founder Company</label>
+                                </div>
+                            </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide ">
+                    <div class="box1 d-flex flex-column justify-content-between p-rel">
+                            <i class="fa-solid fa-quote-left quoate"></i>
+                            <div class="d-flex justify-content-end">
+                                <div class="d-flex  w40 justify-content-even mt-20">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+
+                            <label for="" class="lb12 text-left mt-20 lh-2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ea expedita beatae libero explicabo temporibus quisquam cupiditate eos incidunt fugit nihil minus, assumenda molestias? Sed a et nesciunt corporis id.
+                            </label>
+                            <div class="d-flex align-center">
+                                <img src="images/testimonial.jpg" alt="" class="testimonial-picture mr-10">
+                                <div class="d-flex flex-column text-left">
+                                    <label for="" class="lb15 text-bold">DIANA KIMWEALTH</label>
+                                    <label for="" class="lb13 text-gray text-300">Founder Company</label>
+                                </div>
+                            </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide ">
+                    <div class="box1 d-flex flex-column justify-content-between p-rel">
+                            <i class="fa-solid fa-quote-left quoate"></i>
+                            <div class="d-flex justify-content-end">
+                                <div class="d-flex  w40 justify-content-even mt-20">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+
+                            <label for="" class="lb12 text-left mt-20 lh-2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ea expedita beatae libero explicabo temporibus quisquam cupiditate eos incidunt fugit nihil minus, assumenda molestias? Sed a et nesciunt corporis id.
+                            </label>
+                            <div class="d-flex align-center">
+                                <img src="images/testimonial.jpg" alt="" class="testimonial-picture mr-10">
+                                <div class="d-flex flex-column text-left">
+                                    <label for="" class="lb15 text-bold">DIANA KIMWEALTH</label>
+                                    <label for="" class="lb13 text-gray text-300">Founder Company</label>
+                                </div>
+                            </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide ">
+                    <div class="box1 d-flex flex-column justify-content-between p-rel">
+                            <i class="fa-solid fa-quote-left quoate"></i>
+                            <div class="d-flex justify-content-end">
+                                <div class="d-flex  w40 justify-content-even mt-20">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+
+                            <label for="" class="lb12 text-left mt-20 lh-2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ea expedita beatae libero explicabo temporibus quisquam cupiditate eos incidunt fugit nihil minus, assumenda molestias? Sed a et nesciunt corporis id.
+                            </label>
+                            <div class="d-flex align-center">
+                                <img src="images/testimonial.jpg" alt="" class="testimonial-picture mr-10">
+                                <div class="d-flex flex-column text-left">
+                                    <label for="" class="lb15 text-bold">DIANA KIMWEALTH</label>
+                                    <label for="" class="lb13 text-gray text-300">Founder Company</label>
+                                </div>
+                            </div>
+                    </div>
+                  </div>
+
+
+
+
+                 
+                  
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+        </div>
+
+        <div class="section-seven font-tahoma pt-50">
+            <div class="d-flex flex-column align-center">
+                <label for="" class="lb20 theme-red">CONTACT US</label>
+                <!-- <label for="" class="lb30 text-bold">Main Characteristic</label> -->
+                <label for="" class="lb30 text-bold">OUR CONTACT</label>
+                <label for="" class="lb13 text-300 pt-10">Take control of your diabetes today with ProGsterol – </label>
+                <label for="" class="lb13 text-300 pt-4">the best product to help you maintain your healthy blood sugar level and support your weight loss journey.</label>
+
+            </div>
+
+            <div class="d-flex justify-content-even pt-50">
+
+
+                <div class="d-flex flex-column w40 mt-20">
+                    <div class="d-flex flex-column">
+                        <label for="" class="lb30 text-bold">Get in Touch</label>
+                        <label for="" class="lb13 text-300 pt-10">Order now and experience the benefits of our safe, effective and affordable supplement for yourself.
+                        </label>
+
+                    </div>
+                    <div class="d-flex flex-column mt-50">
+                        <label for="" class="lb15">
+                            Name:
+                        </label>
+                        <input type="text">
+                    </div>
+                    <div class="d-flex flex-column pt-10">
+                        <label for="" class="lb15">
+                            Email Address:
+                        </label>
+                        <input type="text">
+                    </div>
+                    <div class="d-flex flex-column pt-10">
+                        <label for="" class="lb15">
+                            Contact No:
+                        </label>
+                        <input type="text">
+                    </div>
+                    <div class="d-flex flex-column pt-10">
+                        <label for="" class="lb15">
+                            Message:
+                        </label>
+                        <textarea name="" id="" cols="" rows="1"></textarea>
+                    </div>
+
+                    <button class="button-one mt-20">Send Message</button>
+                </div>
+
+                <div class="d-flex w50 p-10">
+                    <!-- <div class="mapouter"><div class="gmap_canvas"><iframe width="770" height="510" id="gmap_canvas" src="https://maps.google.com/maps?q=33 V. Luna Ave, Diliman, Quezon City, 1100 Metro Manila&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co">2yu</a><br><style>.mapouter{position:relative;text-align:right;height:510px;width:770px;}</style><a href="https://embedgooglemap.2yu.co">html embed google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:510px;width:770px;}</style></div></div> -->
+                    <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=33 V. Luna Ave, Diliman, Quezon City, 1100 Metro Manila&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co">2yu</a><br><style>.mapouter{position:relative;text-align:right;height:100%;width:100%;}</style><a href="https://embedgooglemap.2yu.co/">html embed google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div>
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        <div class="footer font-tahoma justify-content-between  d-flex">
+            <div class="d-flex w50">
+                <div class="d-flex flex-column w45  h100">
+                    <img src="images/proGsterol-logo.svg" alt="" class="footer-logo">
+                    <label for="" class="lb13 text-white mt-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis voluptate maiores ut cupiditate sed esse quidem est recusandae dolorum deleniti voluptates ducimus a, totam, quam repellat nisi unde accusantium repudiandae!</label>
+
+                    <label for="" class="lb16 text-white mt-10">+63 912346781</label>
+                    <label for="" class="lb16 text-white mt-10">examplegmail@gmail.com</label>
+                    <label for="" class="lb16 text-white mt-10">33 V. Luna Ave, Diliman, Quezon City, 1100 Metro Manila</label>
+
+                </div>
+                <div class="d-flex flex-column w55  h100">
+                    <label for="" class="lb30 text-bold text-white mt-30" style="padding-left:52px">LINKS</label>
+
+                    <div class="d-flex justify-content-even mt-25">
+
+                        <div class="d-flex flex-column">
+                            <label for="" class="lb16 text-white mt-10">Home</label>
+                            <label for="" class="lb16 text-white mt-20">ProGsterol</label>
+                            <label for="" class="lb16 text-white mt-20">Registration</label>
+                            <label for="" class="lb16 text-white mt-20">Clinical Studies</label>
+                            
+                        </div>
+                        <div class="d-flex flex-column">
+
+                            <label for="" class="lb16 text-white mt-10">FAQS</label>
+                            <label for="" class="lb16 text-white mt-20">Contact Us</label>
+                            <div class="d-flex mt-20">
+                                <i class="fa-brands fa-facebook-f socmed-logo"></i>
+                                <i class="fa-brands fa-instagram socmed-logo"></i>
+                                <i class="fa-solid fa-envelope socmed-logo"></i>
+                             </div>
+        
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="d-flex flex-column w40">
+                <label for="" class="lb30 text-bold text-white mt-30" style="">Our News letter</label>
+
+                <div class="d-flex  mt-25">
+
+                    <div class="d-flex flex-column">
+                        <label for="" class="lb13 text-white mt-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis voluptate maiores ut cupiditate sed esse
+                             quidem est recusandae dolorum deleniti voluptates ducimus a, totam, quam repellat nisi unde accusantium repudiandae!
+                             quidem est recusandae dolorum deleniti voluptates ducimus a, totam, quam repellat nisi unde accusantium repudiandae!</label>
+
+
+                             <div class="footer-inp mt-20">
+                                <input type="text" class="" placeholder="Email Address">
+                                <button>Subscribe Now</button>
+                             </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+      
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        });
+                
+        var modal = document.getElementById('modal-video');
+        var openButton = document.querySelector('.open-modal');
+        var closeButton = document.querySelector('.close');
+        var videoIframe = document.getElementById('video-iframe');
+        var videoContainer  = document.getElementById('video-container');
+
+
+        function openModal(videoUrl) {
+        modal.style.display = 'block';
+        videoContainer.innerHTML = `<video controls src="https://youtu.be/qQtLlAP88es"></video>`;
+        }
+
+        function closeModal() {
+            modal.style.display = 'none';
+            var videoPlayer = videoContainer.querySelector('video');
+            videoPlayer.pause();
+            videoPlayer.src = '';
+        }
+
+        function destroyVideoPlayer() {
+            videoContainer.innerHTML = ''; // Remove the video player
+            console.log(" ")
+        }
+
+
+        openButton.addEventListener('click', openModal);
+
+        closeButton.addEventListener('click', closeModal);
+
+        window.addEventListener('click', function (event) {
+        if (event.target === modal) {
+            closeModal();
+        }
+        });
+        
+    </script>
+</body>
+</html>
