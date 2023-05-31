@@ -532,12 +532,14 @@ html{
 
     }
     .char-icon{
-      height:125px;
+      height:100px;
       width: 150px;
+      /* border: 1px solid red; */
    }
     .char-icon1{
       height:100px;
       width: 100px;
+      /* border: 1px solid red; */
    }
  
     /* --------------------------------- */
@@ -589,6 +591,20 @@ html{
 
       .text-semi-white{
         color: #ccbbbb;
+      }
+
+      .text-icon-title{
+        height: 60px;
+        /* border: 1px solid red!important; */
+        display: flex;
+        align-items: start;
+      }
+
+      .text-icon-details{
+        height: 80px;
+        display: flex;
+        align-items: start;
+        /* border: 1px solid red!important; */
       }
     /* --------------------------------- */
 
@@ -676,12 +692,7 @@ html{
       /* border: 1px solid red; */
 
     }
-    .icon-title{
-      height: 50px;
-      
-      /* border: 1px solid red; */
-
-    }
+  
     /* ------------------------------------- */
     /* WATCH VIDEO MODAL */
     .modal-video{
