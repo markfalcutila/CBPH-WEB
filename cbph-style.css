@@ -196,7 +196,8 @@ html{
       right: -5%;
       padding: 0 60px;
       box-sizing: border-box;
-      opacity: 0;
+      /* opacity: 0; */
+      display: none;
    }
    .mobile-nav-body{
       /* display: none; */
@@ -279,22 +280,21 @@ html{
     }
 
     .section-four{
-      height: 800px;
-      padding: 0 10%;
+      /* height: 800px; */
+      padding: 100px 10%;
       width: 100%;
       margin: 100px 0;
 
     }
 
     .section-five{
-      height: 600px;
       width: 100%;
       background-color: #191F6C;
       background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/imagesss/tester-bg.jpeg);
       background-size: cover;
       background-position: center;
       /* background-attachment: scroll; */
-      padding: 0 10%;
+      padding: 100px 10%;
       margin: 100px 0;
 
     }
@@ -311,8 +311,8 @@ html{
    }
 
    .section-six{
-      height: 800px;
-      padding: 0 10%;
+      /* height: 800px; */
+      padding: 100px 10%;
       width: 100%;
       margin: 100px 0;
 
@@ -320,11 +320,11 @@ html{
    }
 
    .section-for-video{
-    height: 500px;
-    width: 100%;
+    /* height: 500px; */
+    /* width: 100%; */
     width: 100%;
     /* border: 1px solid red; */
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
 
    }
@@ -371,7 +371,7 @@ html{
       /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
       /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      height: 300px;
+      height: 320px;
       width: 450px;
       /* border: 1px solid red; */
       padding: 30px 30px;
@@ -403,55 +403,95 @@ html{
     }
    
 
-  
-
+  .contact__map{
+    height: auto;
+    max-height: 500px;
+  }
+  .contact__right{
+    /* background: #191F6C; */
+      width: 100%;
+      background-color: #434672;
+      padding: 30px 50px;
+      background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/bg/cbph-contact-us.jpg);
+      background-size: cover;
+      background-position: left center;
+      display: flex;
+      justify-content: center;
+  }
     .section-eight{
-        height: 900px;
+        /* height: 900px; */
         padding: 0 10%;
         width: 100%;
         margin: 100px 0;
         /* border: 1px solid red; */
     }
-    .section-eight input[type="text"]{
+    .contact__form input[type="text"]{
         border:none;
         border-bottom: 1px solid #555;
         outline: none;
         font-size: 15px;
         margin: 15px 0;
-        width: 80%;
+        width: 100%;
         padding: 5px 0px;
       }
-      .section-eight textarea{
+      .contact__form textarea{
         border: none;
         border-bottom: 1px solid #555;
         outline: none;
         font-size: 15px;
         margin: 15px 0;
-        width: 80%;
+        width: 100%;
         padding: 5px 0px;
         resize: none;
       }
       .section-eight input:focus{
         border: none;
-        border-bottom: 1px solid #111;
+        /* border-bottom: 2px solid #CA1A23; */
+        border-bottom: 1px solid #191F6C;
+        
       
       }
-      .section-eight textarea:focus{
+      .contact__form textarea:focus{
         border: none;
-        border-bottom: 1px solid #111;
+        border-bottom: 1px solid #191F6C;
       
       }
+      .contact__right .text-mini-title{
+        font-size: 20px;
+        color: #f4f4f4;
 
+      }
+      .contact__right .text-icon{
+        font-size: 30px;
+        color: #f4f4f4;
+        margin-right: 30px;
+
+      }
+      .contact__right .text-mini-desc{
+        font-size: 15px;
+        color: #f4f4f4;
+        
+      }
       .section-nine{
-        height: 500px;
+        padding: 100px 10%;
+        width: 100%;
+        margin: 100px 0;
+  
+     }
+     .progi__content2{
         padding: 0 10%;
         width: 100%;
         margin: 200px 0;
   
      }
+     .progi__content1{
+        padding: 0 10%;
+        width: 100%;
+  
+     }
 
     .footer{
-      margin: 100px 0;
+      margin: 100px 0 100px 0;
       height: 500px;
       padding: 50px 10%;
       width: 100%;
@@ -532,12 +572,13 @@ html{
 
     }
     .char-icon{
-      height:100px;
-      width: 150px;
+      height: 120px;
+      /* border: 1px solid red; */
+      width: 180px;
       /* border: 1px solid red; */
    }
     .char-icon1{
-      height:100px;
+      height:120px;
       width: 100px;
       /* border: 1px solid red; */
    }
@@ -559,8 +600,16 @@ html{
      .progi-dot{
         position: absolute;
         top: 0;
-        left: 0;
+        right: 0;
         right: 100px;
+        z-index: 10;
+        opacity: 0.3;
+     }
+     .homepg-progi-dot{
+        position: absolute;
+        top: 0;
+        right: 20px;
+        height: 50%;
         z-index: 10;
         opacity: 0.3;
      }
@@ -577,14 +626,14 @@ html{
         width: 95%;
     }
      .progi-section-two{
-        height: 600px;
+        /* height: 600px; */
         width: 100%;
         background-color: #191F6C;
-        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3 )), url(images/cornnnns.png);
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5 )), url(images/bg/sweet-corn.jpg);
         background-size: cover;
-        background-position: right bottom ;
+        background-position:top center ;
         /* background-attachment: scroll; */
-        padding: 0 10%;
+        padding: 100px 3%;
         margin: 100px 0;
       
       }
@@ -632,6 +681,10 @@ html{
       border: none;
       outline: none;
     }
+    .button-one:active{
+      border: none;
+      outline: none;
+    }
 
     
     .button-two{
@@ -639,19 +692,24 @@ html{
       width:auto;
       font-size: 15px;
       background: white;
-      border: 1px solid #3a477c ;
       color: #3a477c;
       width: 200px;
       border-radius: 25px;
       cursor: pointer;
       outline: none;
+      border: 1px solid #3a477c ;
+
 
     }
     .button-two:hover{
       background: #3a477c;
       color: #ffffff;
       outline: none;
-      border: none;
+      /* border: none; */
+   
+    }
+    .button-two:focus{
+      outline: none;
    
     }
     .button-three{
@@ -788,3 +846,184 @@ html{
       right:5%;
       width: 40%;
    }
+
+   /* CLINICAL STUDIES */
+   .text-page-header{
+    font-size: 80px;
+   }
+   .text-content-title{
+    font-size: 50px;
+    
+   }
+   .text-semi-content-title{
+    font-size: 40px;
+    
+   }
+   .text-title{
+    font-size: 30px;
+
+   }
+   .faqs-subtitle{
+    font-size: 20px;
+    
+   }
+   .faqs-subtitle:after{
+    content: '';
+    /* border: 1px solid red; */
+    /* background-color: red;
+    width: 300px;
+    height: 2px; */
+    
+   }
+   .text-semi-title{
+    font-size: 25px;
+    font-weight: bold;
+
+   }
+   .text-details{
+    font-size: 16px;
+
+   }
+
+
+   .registration-container{
+    height: 400px;
+    width: 100%;
+    background-color: #191F6C;
+    /* background-image: url(images/bg/blue-bg.jpg);
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('images/background.jpg'); */
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/imagesss/tester-bg.jpeg);
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 50px;
+    padding: 0 10%;
+    margin: 0 100px 0 0;
+  }
+   .clinical_studies{
+    height: 400px;
+    width: 100%;
+    background-color: #191F6C;
+    /* background-image: url(images/bg/blue-bg.jpg);
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('images/background.jpg'); */
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/clinical-studies-bg\ 1.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 50px;
+    padding: 0 10%;
+    margin: 0 100px 0 0;
+  }
+
+
+   .contact__us{
+    height: 500px;
+    width: 100%;
+    background-color: #191F6C;
+    /* background-image: url(images/bg/blue-bg.jpg);
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('images/background.jpg'); */
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/bg/contact-us-bg2.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 50px;
+    padding: 0 10%;
+    margin: 0 100px 0 0;
+  }
+
+   .faqs{
+    height: 500px;
+    width: 100%;
+    background-color: #191F6C;
+    /* background-image: url(images/bg/blue-bg.jpg);
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('images/background.jpg'); */
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url(images/bg/faqs-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 50px;
+    padding: 0 10%;
+    margin: 0 100px 0 0;
+  }
+
+  .dot-icon{
+    
+  }
+
+  .container-sxxx{
+    margin-bottom: 500px;
+    padding-bottom: 500px;
+  }
+
+  .cs-content-container{
+    margin:50px 0px;
+  }
+
+  .text-details-red{
+    color: #C83C42;
+    font-weight: bold;
+  }
+  .text-details-blue{
+    color: #627FB0;
+    font-weight: bold;
+  }
+
+  .cstudies-img{
+    margin-top: 50px;
+  }
+
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    /* background: #f4f4f4; */
+    padding: 0;
+    border-bottom: 1px solid #f6eded;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    /* font-style: italic;
+    font-size: 1.5rem; */
+    /* font-weight: bold; */
+    /* color: #24313C; */
+    color: #525f69;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
+.accordion-section .panel-default .panel-title  {
+    padding: 10px 20px;
+    position: relative;
+
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-size: 25px;
+    content: "\f068";
+    color: #C83C42;
+    float: right;
+    position: absolute;
+    top: 0;
+    /* margin-top: -5px; */
+    right: 0;
+}
+
+
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\2b";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 16px;
+    padding: 20px 70px  10px 70px;
+    border-bottom: 1px solid #f6eded;
+
+}
+.faq-four-dots{
+  /* position: absolute; */
+  width: 45px;
+  left: 0;
+  margin-left: 10px;
+}
