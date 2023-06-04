@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="cbph-style.css">
-    <link rel="stylesheet" href="style-lib.css">
+    <!-- <link rel="stylesheet" href="cbph-style.css">
+    <link rel="stylesheet" href="style-lib.css"> -->
+
+    <link rel="stylesheet" href="styles/cbph-style.css">
+    <link rel="stylesheet" href="styles/style-lib.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
@@ -23,7 +27,7 @@
 </head>
 <body>
 
-    <div class="main-container">
+    <div class="main-container registration__page">
         
         <!-- NAVBAR -->
         <div class="navbar w100 ">
@@ -59,32 +63,50 @@
                 <div class="hamburger hamburger-one"></div>
             </div>
             <div class="mobile-nav">
-              
+                <ul class="mobile-navbar font-opensans ">
+                    <li>
+                        <a href="index.html" class="menu">HOME</a>
+                    </li>
+                    <li>
+                        <a href="cbph-progsterol.html" class="menu">About</a>
+                    </li>
+                    <li>
+                        <a href="cbph-registration.html" class="menu-active">Registration</a>
+                    </li>
+                    <li>
+                        <a href="cbph-clinical-studies.html" class="menu">Clinical Studies</a>
+                    </li>
+                    <li>
+                        <a href="cbph-faqs.html" class="menu">FAQ'S</a>
+                    </li>
+                    <li>
+                        <a href="cbph-contact.html" class="menu">Contacts</a>
+                    </li>
+                </ul>
             </div>
         </div>
 
-        <div class="registration-container d-flex align-items-center  justify-content-center">
+        <div class="registration__header d-flex align-items-center  justify-content-center">
             <label for="" class="text-page-header text-white text-bold">Registration</label>
         </div>
-
        
      
-        <div class="progi__content2">
+        <div class="reg__container">
 
             <div class="row  d-flex justify-content-between d-flex pt-10 pb-10">
             
-                <div class="d-flex col-xl-6  col-lg-6 col-md-12 col-sm-12  align-center justify-content-center  p-rel">
-                    <img src="images/product-for-web.png" class=" p-rel img-fluid" alt="">
+                <div class="reg-right d-flex col-xl-6  col-lg-6 col-md-12 col-sm-12  align-center justify-content-center  p-rel">
+                    <img src="images/imagesss/product-combine.png" class=" p-rel registration__image" alt="">
                 </div>
 
-                <div class="d-flex flex-column col-xl-6 col-lg-6 col-md-12 col-sm-12 justify-content-center font-tahoma p-rel">
-                    <label class="text-semi-content-title text-bold lh-1-5 ">Deglusterol is registered in the US as the world’s first synthetic peptide
+                <div class="reg-left d-flex flex-column col-xl-6 col-lg-6 col-md-12 col-sm-12 justify-content-center font-tahoma p-rel">
+                    <label class="text-title text-bold lh-1-5 ">Deglusterol is registered in the US as the world’s first synthetic peptide
                         New Diet Ingredient (NDI).</label>
-                    <label class="text-details  mt-20 lh-1-5 ">
+                    <label class="text-details lh-1-5 ">
                         Deglusterol normalizes the function of insulin and the pancreas that secretes insulin by inhibiting beta cell damage.
 
                     </label>
-                    <label class="text-details  mt-20 lh-1-5 ">
+                    <label class="text-details  lh-1-5 ">
                         ProGsterol supports blood sugar control without side effects
                     </label>
                 </div>
@@ -94,9 +116,9 @@
             </div>
         </div>
        
-        <div class="footer font-tahoma justify-content-between row d-flex">
-            <div class="d-flex col-7 row">
-                <div class="d-flex flex-column col-5  h100">
+        <div class="contact__footer font-tahoma justify-content-between row d-flex mt-0">
+            <div class="d-flex col-xl-8 col-lg-12  col-md-12 col-sm-12 col-xs-12 row">
+                <div class="d-flex flex-column col-xl-5 col-lg-5 col-md-6 col-sm-12    h100">
                     <img src="images/proGsterol-logo.svg" alt="" class="footer-logo">
                     <label for="" class="lb13 text-white mt-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis voluptate maiores ut cupiditate sed esse quidem est recusandae dolorum deleniti voluptates ducimus a, totam, quam repellat nisi unde accusantium repudiandae!</label>
 
@@ -105,14 +127,14 @@
                     <label for="" class="lb16 text-white mt-10">33 V. Luna Ave, Diliman, Quezon City, 1100 Metro Manila</label>
 
                 </div>
-                <div class="d-flex flex-column col-7  h100">
+                <div class="d-flex flex-column col-xl-7 col-lg-7 col-md-6 col-sm-12 col-xs-12   h100">
                     <label for="" class="lb30 text-bold text-white mt-30">LINKS</label>
 
                     <div class="d-flex justify-content-even mt-15">
 
                         <div class="d-flex flex-column">
                             <label for="" class="lb16 text-white mt-10">Home</label>
-                            <label for="" class="lb16 text-white mt-20">About</label>
+                            <label for="" class="lb16 text-white mt-20">ProGsterol</label>
                             <label for="" class="lb16 text-white mt-20">Registration</label>
                             <label for="" class="lb16 text-white mt-20">Clinical Studies</label>
                             
@@ -132,7 +154,7 @@
                 </div>
 
             </div>
-            <div class="d-flex flex-column col-5">
+            <!-- <div class="d-flex flex-column col-5">
                 <label for="" class="lb30 text-bold text-white mt-30" style="">Our News letter</label>
 
                 <div class="d-flex  mt-25">
@@ -151,23 +173,10 @@
                         
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
 
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script>
-    var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-    });
-
-    </script>
 
 </body>
 </html>
